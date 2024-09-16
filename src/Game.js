@@ -11,8 +11,8 @@ const enemies = tileMap.getEnemies(velocity);
 
 let gameOver = false;
 let gameWin = false;
-const gameOverSound = new Audio("../sounds/game_over.mp3");
-const gameWinSound = new Audio("../sounds/game_win.mp3");
+const gameOverSound = new Audio("/sounds/game_over.mp3");
+const gameWinSound = new Audio("/sounds/game_win.mp3");
 
 function gameLoop() {
   tileMap.draw(ctx);
