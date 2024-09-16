@@ -15,14 +15,14 @@ export default class Zompac {
     this.zompacAnimationTimer = null;
 
     this.zompacRotation = this.Rotation.right;
-    this.brainSound = new Audio("../sounds/waka.wav");
+    this.brainSound = new Audio("/sounds/waka.wav");
 
-    this.powerDotSound = new Audio("../sounds/power_dot.mp3");
+    this.powerDotSound = new Audio("/sounds/power_dot.mp3");
     this.powerDotActive = false;
     this.powerDotAboutToExpire = false;
     this.timers = [];
 
-    this.eatGhostSound = new Audio("../sounds/eating_ghost.mp3");
+    this.eatGhostSound = new Audio("/sounds/eating_ghost.mp3");
 
     this.madeFirstMove = false;
 
@@ -73,16 +73,16 @@ export default class Zompac {
 
   #loadZomPacImages() {
     const zompacImage1 = new Image();
-    zompacImage1.src = "../images/pac0.png";
+    zompacImage1.src = "/images/pac0.png";
 
     const zompacImage2 = new Image();
-    zompacImage2.src = "../images/pac1.png";
+    zompacImage2.src = "/images/pac1.png";
 
     const zompacImage3 = new Image();
-    zompacImage3.src = "../images/pac2.png";
+    zompacImage3.src = "/images/pac2.png";
 
     const zompacImage4 = new Image();
-    zompacImage4.src = "../images/pac1.png";
+    zompacImage4.src = "/images/pac1.png";
 
     this.zompacImages = [
       zompacImage1,
