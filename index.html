@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZomPac</title>
+    <style>
+      #gameCanvas {
+        box-shadow: 50px 50px 50px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: darkblue;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(17, 51, 161) 0%,
+          rgb(26, 160, 233) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Zom-Pac</h1>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="src/Game.js" type="module"></script>
+  </body>
+</html>
