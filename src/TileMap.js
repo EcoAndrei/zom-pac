@@ -7,13 +7,13 @@ export default class TileMap {
     this.tileSize = tileSize;
 
     this.brain = new Image();
-    this.brain.src = "../images/brain.png";
+    this.brain.src = "/images/brain.png";
 
     this.soare = new Image();
-    this.soare.src = "../images/soare.png";
+    this.soare.src = "/images/soare.png";
 
     this.wall = new Image();
-    this.wall.src = "../images/wall.jpg";
+    this.wall.src = "/images/wall.jpg";
 
     this.powerDot = this.soare;
     this.powerDotAnmationTimerDefault = 80;
